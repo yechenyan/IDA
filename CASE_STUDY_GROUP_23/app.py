@@ -828,6 +828,7 @@ def create_app() -> Dash:
             color_discrete_map=PART_COLOR_MAP,
             labels={"manufacturer_bucket": "Manufacturer bucket", "value": y_title, "gearbox_type": "Part"},
             template=PX_TEMPLATE,
+            pattern_shape=None,
         )
         fig.update_layout(
             title=None,
